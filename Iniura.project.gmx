@@ -5,9 +5,34 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\sPlayer</sprite>
+    <sprite>sprites\sprite2</sprite>
+    <sprite>sprites\sWall</sprite>
+    <sprite>sprites\sprite3_308a173cfe00048210a0f3ffdb731e72-d3fwv8l</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\angle_approach.gml</script>
+    <script>scripts\InTheView.gml</script>
+    <script>scripts\instance_nth_nearest.gml</script>
+    <script>scripts\ScCanSee.gml</script>
+    <script>scripts\ScCollision2.gml</script>
+    <script>scripts\ScCollision.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\oSolid</object>
+    <object>objects\oWall</object>
+    <object>objects\oFloor</object>
+    <object>objects\oCredits</object>
+    <object>objects\oPlayer</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rTest</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
